@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-04T00:23:18 EET" name="Surefire suite" finished-at="2025-11-04T00:23:25 EET" duration-ms="6525">
+    <groups>
+    </groups>
+    <test started-at="2025-11-04T00:23:18 EET" name="Surefire test" finished-at="2025-11-04T00:23:25 EET" duration-ms="6525">
+      <class name="tests.Rest">
+        <test-method signature="test01_verifyGenderFieldExists()[pri:0, instance:tests.Rest@1e683a3e]" started-at="2025-11-04T00:23:18 EET" name="test01_verifyGenderFieldExists" finished-at="2025-11-04T00:23:21 EET" duration-ms="2611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_verifyGenderFieldExists -->
+        <test-method signature="test02_verifyResponseTime()[pri:0, instance:tests.Rest@1e683a3e]" started-at="2025-11-04T00:23:21 EET" name="test02_verifyResponseTime" finished-at="2025-11-04T00:23:22 EET" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_verifyResponseTime -->
+        <test-method signature="test03_verifyMultipleNames()[pri:0, instance:tests.Rest@1e683a3e]" started-at="2025-11-04T00:23:22 EET" name="test03_verifyMultipleNames" finished-at="2025-11-04T00:23:23 EET" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_verifyMultipleNames -->
+        <test-method signature="test04_verifyMissingParameterError()[pri:0, instance:tests.Rest@1e683a3e]" started-at="2025-11-04T00:23:23 EET" name="test04_verifyMissingParameterError" finished-at="2025-11-04T00:23:23 EET" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_verifyMissingParameterError -->
+        <test-method signature="test05_getGenderForValidName()[pri:0, instance:tests.Rest@1e683a3e]" started-at="2025-11-04T00:23:23 EET" name="test05_getGenderForValidName" finished-at="2025-11-04T00:23:24 EET" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test05_getGenderForValidName -->
+      </class> <!-- tests.Rest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

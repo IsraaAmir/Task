@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.Rest" time="7.017" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\RestAssured\target\test-classes;D:\RestAssured\target\classes;C:\Users\esraa\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\esraa\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\esraa\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\esraa\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\esraa\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\esraa\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\esraa\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\esraa\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\esraa\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\esraa\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\esraa\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\esraa\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\esraa\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\esraa\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\esraa\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\esraa\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\esraa\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\esraa\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\esraa\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\esraa\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\esraa\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\esraa\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\esraa\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\esraa\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\esraa\AppData\Local\Temp\surefire12533199505387445506\surefirebooter-20251104002317251_3.jar C:\Users\esraa\AppData\Local\Temp\surefire12533199505387445506 2025-11-04T00-23-17_123-jvmRun1 surefire-20251104002317251_1tmp surefire_0-20251104002317251_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\RestAssured\target\test-classes;D:\RestAssured\target\classes;C:\Users\esraa\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\esraa\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\esraa\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\esraa\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\esraa\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\esraa\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\esraa\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\esraa\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\esraa\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\esraa\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\esraa\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\esraa\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\esraa\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\esraa\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\esraa\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\esraa\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\esraa\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\esraa\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\esraa\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\esraa\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\esraa\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\esraa\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\esraa\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\esraa\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;"/>
+    <property name="allure.results.directory" value="target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\esraa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\RestAssured"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\esraa\AppData\Local\Temp\surefire12533199505387445506\surefirebooter-20251104002317251_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.8+12-LTS-250"/>
+    <property name="user.name" value="esraa"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\esraa\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\esraa\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="D:\RestAssured"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-21\bin;C:\Users\esraa\dev\flutter\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\PowerShell\7\;C:\Users\esraa\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Users\esraa\AppData\Local\Microsoft\WindowsApps;C:\Users\esraa\Downloads\flutter_windows_3.24.0-stable\flutter\bin;C:\Users\esraa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\esraa\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.3\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.8+12-LTS-250"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="test01_verifyGenderFieldExists" classname="tests.Rest" time="2.658">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.16.1
+Date: Mon, 03 Nov 2025 22:23:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 84
+Connection: keep-alive
+vary: accept-encoding
+content-encoding: gzip
+cache-control: max-age=0, private, must-revalidate
+x-request-id: GHSfYs5uMyxrGIkBnYSB
+access-control-allow-credentials: true
+access-control-allow-origin: *
+access-control-expose-headers: x-rate-limit-limit,x-rate-limit-remaining,x-rate-limit-reset
+x-rate-limit-limit: 100
+x-rate-limit-remaining: 70
+x-rate-limit-reset: 5800
+
+{
+    "count": 399289,
+    "name": "Alice",
+    "gender": "female",
+    "probability": 0.99
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="test02_verifyResponseTime" classname="tests.Rest" time="1.082">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.16.1
+Date: Mon, 03 Nov 2025 22:23:22 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 84
+Connection: keep-alive
+vary: accept-encoding
+content-encoding: gzip
+cache-control: max-age=0, private, must-revalidate
+x-request-id: GHSfYyJ--MSZEInB04kC
+access-control-allow-credentials: true
+access-control-allow-origin: *
+access-control-expose-headers: x-rate-limit-limit,x-rate-limit-remaining,x-rate-limit-reset
+x-rate-limit-limit: 100
+x-rate-limit-remaining: 69
+x-rate-limit-reset: 5798
+
+{
+    "count": 500304,
+    "name": "Emma",
+    "gender": "female",
+    "probability": 0.97
+}
+]]></system-out>
+  </testcase>
+  <testcase name="test03_verifyMultipleNames" classname="tests.Rest" time="0.531">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.16.1
+Date: Mon, 03 Nov 2025 22:23:23 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 130
+Connection: keep-alive
+vary: accept-encoding
+content-encoding: gzip
+cache-control: max-age=0, private, must-revalidate
+x-request-id: GHSfY1GvDR_uQZHooPnD
+access-control-allow-credentials: true
+access-control-allow-origin: *
+access-control-expose-headers: x-rate-limit-limit,x-rate-limit-remaining,x-rate-limit-reset
+x-rate-limit-limit: 100
+x-rate-limit-remaining: 66
+x-rate-limit-reset: 5797
+
+[
+    {
+        "count": 399289,
+        "name": "Alice",
+        "gender": "female",
+        "probability": 0.99
+    },
+    {
+        "count": 2692560,
+        "name": "John",
+        "gender": "male",
+        "probability": 1.0
+    },
+    {
+        "count": 2530843,
+        "name": "Michael",
+        "gender": "male",
+        "probability": 1.0
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="test04_verifyMissingParameterError" classname="tests.Rest" time="0.768">
+    <system-out><![CDATA[HTTP/1.1 422 Unprocessable Entity
+Server: nginx/1.16.1
+Date: Mon, 03 Nov 2025 22:23:23 GMT
+Content-Type: application/json
+Content-Length: 54
+Connection: keep-alive
+vary: accept-encoding
+content-encoding: gzip
+cache-control: max-age=0, private, must-revalidate
+x-request-id: GHSfY4AYOGv2IQ4Bna-B
+access-control-allow-credentials: true
+access-control-allow-origin: *
+access-control-expose-headers: x-rate-limit-limit,x-rate-limit-remaining,x-rate-limit-reset
+
+{
+    "error": "Missing 'name' parameter"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="test05_getGenderForValidName" classname="tests.Rest" time="1.45">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.16.1
+Date: Mon, 03 Nov 2025 22:23:24 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 84
+Connection: keep-alive
+vary: accept-encoding
+content-encoding: gzip
+cache-control: max-age=0, private, must-revalidate
+x-request-id: GHSfY7AKtxFJhaXooRYD
+access-control-allow-credentials: true
+access-control-allow-origin: *
+access-control-expose-headers: x-rate-limit-limit,x-rate-limit-remaining,x-rate-limit-reset
+x-rate-limit-limit: 100
+x-rate-limit-remaining: 65
+x-rate-limit-reset: 5796
+
+{
+    "count": 399289,
+    "name": "Alice",
+    "gender": "female",
+    "probability": 0.99
+}
+]]></system-out>
+  </testcase>
+</testsuite>
